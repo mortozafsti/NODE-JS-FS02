@@ -9,7 +9,7 @@ const insertSingleDoc = async()=>{
 
         // create a document to insert
         const doc = {
-            name: "Gazi Mohammad Mortoza Ahmed"
+            name: "Hasan mia"
           }
           const result = await createUsers.insertOne(doc);
           console.log(`A document was inserted with the _id: ${result.insertedId}`);
